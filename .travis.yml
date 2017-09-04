@@ -17,6 +17,7 @@ addons:
     - slapd
 
 before_script:
+  - true
   - whoami
   - mkdir /tmp/slapd
   # start setup ssl
